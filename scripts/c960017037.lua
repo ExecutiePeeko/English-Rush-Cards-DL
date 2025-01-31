@@ -1,4 +1,5 @@
 --Transam Diskarma Linac
+--Scripted by Peeko
 function s.initial_effect(c)
 	c:EnableReviveLimit()
 	--[REQUIREMENT] During the turn this card was Ritual Summoned, send the top card of the Deck to the GY.

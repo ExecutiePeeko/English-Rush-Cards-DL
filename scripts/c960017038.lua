@@ -1,4 +1,5 @@
 --Diskarma Ritual
+--Scripted by Peeko
 --[REQUIREMENT] During the turn this card was Ritual Summoned, send the top card of the Deck to the GY.
 --[EFFECT] Ritual Summon “Transam Diskarma Linac” by sending face-up monsters on your field to the GY whose combined levels total 11 or more.
 --	(You cannot use more monsters than necessary to Ritual Summon)
