@@ -1,12 +1,13 @@
 --Transam Diskarma Linac
 --Scripted by Peeko
+local s,id=GetID()
 function s.initial_effect(c)
 	c:EnableReviveLimit()
 	--[REQUIREMENT] During the turn this card was Ritual Summoned, send the top card of the Deck to the GY.
 	--[EFFECT] All face-up monsters on your opponent’s field lose 1000 ATK x [The number of monsters used as material to Ritual Summon this card].
 	--		   For the rest of this turn, this card can make attacks on monsters up to [The number of monsters used as materials to Ritual Summon this card].
 	local e1=Effect.CreateEffect(c)
-	e1:SetCategory(CATEGORY_ATKCHANGE)
+	e1:SetCategory(CATEGORY_ATKCHANGE,EFFECT_EXTRA_ATTACK_MONSTER)
 	e1:SetType(EFFECT_TYPE_IGNITION)
 	e1:SetRange(LOCATION_MZONE)
 	e1:SetCountLimit(1)
